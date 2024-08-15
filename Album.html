@@ -1,0 +1,319 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Album</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	  <style>
+		  
+		  
+		    html,body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #222;
+				
+		
+}
+
+.navbar{
+	padding: 1px;
+	
+}
+
+.nav-bar li{
+	padding-right: 20px;
+}
+
+.nav-link{
+	font-size: 1.1em !important;
+}
+		  .btn-primary{
+			  background-color: #8A478C;
+			  border: 1px solid thick #561562
+		  }
+		  
+		  .btn-primary:hover{
+			  background-color: #600C60;
+			  border: 1px solid thick #561562
+		  
+		  }
+		  
+		  .btn{
+			  background-color: #8A478C;
+			  
+		  }
+		  
+		  .btn:hover{
+			  background-color: #600C60;
+			  border: 1px solid thick #561562  
+		  }
+		  
+		  
+		  footer{
+			  background-color: black;
+			  color: #d5d5d5;
+			  padding-top: 2rem;
+		  }
+		  
+		  hr.light{
+			  border-top: 1px solid #d5d5d5;
+			  width: 75%;
+			  margin-top: 0.8rem;
+			  margin-bottom: 1rem;
+		  }
+		  .gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+	  </style>
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light  ">
+   <p>&nbsp;</p>
+   <p><a class="navbar-brand" href="#" ><img src="Images/dfgh.png" width="80" height="50" alt=""/></a>
+   </p>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="Registration.html">Register</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="About us.html">About Us</a>
+         </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Press Me
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="Cook me.html">Cook Me</a>
+               <a class="dropdown-item" href="plant me.html">Plant Me</a>
+				<a class="dropdown-item" href="family.html">Fam Time</a> 
+			 </div>
+			 
+				</li>
+      
+	   <li class="nav-item">
+            <a class="nav-link" href="Album.html">Album</a>
+         </li>
+				</ul>
+      <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: aliceblue">Search</button>
+      </form>
+   </div>
+</nav>
+	  
+<!--Breadcrumb-->
+	   <div class="container-fluid">
+  <section class="breadcrumbs-section">
+    <div class="container p-1 p-sm-3">
+      <div class="row">
+        <div class="col-12">
+          <h2>About Us</h2>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+			  <li class="breadcrumb-item"><a href="press me.html">Press Me</a></li>
+            <li class="breadcrumb-item active">About Us</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </section>
+		  </div>
+	  
+	  <!--Gallery-->
+	  
+	  <!-- Grid row -->
+<div class="row justify-content-center">
+
+  
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/edit52.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/Abundance Kale Salad with Tahini Dressing _ Minimalist Baker Recipes.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/edit50.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/Edible Green Mountains Vermont Food Photography Styling Workshop.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/edit53.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/Cardamom and Coconut Granola.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+	  
+	    <!-- Grid row -->
+<div class="row">
+
+  
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery1">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/edit59.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/edit58.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/edit57.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/edit56.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="Images/edit55.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="Images/edit54.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+	  
+	  
+	  
+	  
+	  
+	  <!--Footer-->
+	  
+	  <footer>
+	  <div class="container-fluid padding">
+	  <div class="row text-center">
+		  <div class="col-md-4 col-xs-12">
+			  <hr class="light">
+			  <h5>Reach Us</h5>
+			  <hr class="light">
+			  <p>071-2241192</p>
+			  <p>christinadeborah458@gmail.com</p>
+			  <p>No.48b,Old road Balangoda</p>
+			  <p>Srilanka</p>
+			  </div>
+		  
+		  <div class="col-md-5 col-xs-12">
+			  <hr class="light">
+			  <h5>Catergories</h5>
+			  <hr class="light">
+			  <p>Cooking</p>
+			  <p>Planting</p>
+			  <p>Games</p>
+			  <p>Self-Care</p>
+			  <p>DIYs</p>
+			  </div>
+		  
+		  <div class="col-md-3 col-xs-12">
+			  <hr class="light">
+			  <h5>Need Help?</h5>
+			  <hr class="light">
+			  <p>Faqs</p>
+			  <p>Vouchers</p>
+			  <p>Customer Services</p>
+			  </div>
+		  
+		  </div>
+		 </div>
+		</footer>
+	   
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
